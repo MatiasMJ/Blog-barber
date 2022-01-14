@@ -5,6 +5,7 @@ body * {
 }
 
 body {
+  font-family: "Playfair Display", serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -28,6 +29,58 @@ body {
   .blog-footer__logo {
     height: 122px;
   }
+}
+
+.blog-nav {
+  background-color: #121619;
+}
+@media screen and (min-width: 768px) {
+  .blog-nav {
+    height: 199px;
+  }
+}
+.blog-nav__logo {
+  width: 81px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .blog-nav__logo {
+    height: 122px;
+  }
+}
+
+.blog-hero {
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: unset;
+  height: 640px;
+  display: flex;
+}
+.blog-hero__title {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.blog-hero__icon {
+  font-weight: bold;
+  stroke: white;
+}
+
+.blog-article__date {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #d1d1d1;
+}
+.blog-article__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=styles.css.map */

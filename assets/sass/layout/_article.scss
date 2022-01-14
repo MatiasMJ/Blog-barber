@@ -1,0 +1,18 @@
+.blog-article {
+    
+
+    
+
+    &__date {
+        font-family: 'Playfair Display', serif;
+        font-size: $fz-medium;
+        font-weight: $regular-weigth;
+        color: $color-ligth-gray;
+    }
+
+    &__paragraph{
+        font-family: 'Roboto', sans-serif;
+        font-size: $fz-medium;
+        font-weight: $ligth-weigth;
+    }
+}
