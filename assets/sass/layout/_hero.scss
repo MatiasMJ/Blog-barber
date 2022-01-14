@@ -15,11 +15,19 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        @media screen and (min-width: 768px) {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &__icon {
-        font-weight: bold;
         stroke: white;
+        margin: 0;
+        @media screen and (min-width: 768px) {
+            
+        }
     }
     
 }
