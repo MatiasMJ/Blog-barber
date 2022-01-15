@@ -1,8 +1,7 @@
 .blog-article {
-    justify-content: start;
-    letter-spacing: 35px;
+   // justify-content: start;
     line-height: 40px;
-    
+  
 
     &__date {
         font-family: 'Playfair Display', serif;
@@ -21,5 +20,9 @@
     &__button{
         border-radius: 20px;
         background-color: $color-nickel;
+        color: $color-white;
+        
     }
+
+    
 }

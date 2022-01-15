@@ -47,7 +47,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+              <a class="nav-link" aria-current="page" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Trabajos</a>
@@ -59,7 +59,7 @@
               <a class="nav-link">Horas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -81,7 +81,7 @@
 
 <!--articulo-->
 
-<article class="container blog-article p-4">
+<article id="nosotros" class="container blog-article p-4">
   <div class="row">
     <h3 class="blog-article__date">12 de abril de 2018</h3>
   </div>
@@ -93,38 +93,45 @@
       Suspendisse vel lobortis lectus, eu convallis mauris. Praesent id odio imperdiet, tincidunt ex a, aliquam libero. Duis ultricies nisi nulla, eget cursus nibh </p>
   </div>
 
-  <div class="blog-article__button pb-3 border-bottom">
+  <div class="pb-3 border-bottom mx-auto">
     <button class="btn blog-article__button" type="button">compartir</button>
-    <button class="btn blog-article__buttons" type="button">Comentar en Twitter</button>
+    <button class="btn blog-article__button" type="button">Comentar en Twitter</button>
   </div>
 </article>
 
 <!--autor-->
-<div class="container blog-author">
-  <div class="row">
-    <img src="assets/img/naomi-thai.png" class="blog-author__portrait" alt="naommi thai">
-    <h2>Naomi Thai</h2>
-    <p>@Naothai <br> depelos.com</p>
+<div  id="Contacto" class="container blog-author">
+  <img src="assets/img/naomi-thai.png" class="blog-author__portrait" alt="naommi thai">
+  <div>
+      <a class="blog-author__name">Naomi Thai</a>
+      <a class="blog-author__email">@Naothai <br> depelos.com</a>
+    
   </div>
+  <p class="blog-author__description d-none d-md-block d-lg-block d-xl-block">
+    Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. 
+    Praesent ultrices semper massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, 
+    quis convallis metus.
+  </p>
 </div>
 
 <!--pagination-->
-
-<nav aria-label="..." class="px-4 py-4 mx-auto">
-  <ul class="pagination">
-    <li class="page-item disabled">
-      <span class="page-link">Anterior</span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active" aria-current="page">
-      <span class="page-link">2</span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Siguiente</a>
-    </li>
-  </ul>
-</nav>
+<div class="container-fluid blog-pagination">
+  <nav aria-label="..." class="px-4 py-4 mx-auto">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <span class="page-link">Anterior</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <span class="page-link">2</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Siguiente</a>
+      </li>
+    </ul>
+  </nav>
+</div>
 
 <!--FOOTER-->
     <footer class="blog-footer">

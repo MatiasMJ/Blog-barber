@@ -1,12 +1,50 @@
 .blog-author {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        margin: 58px auto 92px;
+    }
     
     &__portrait {
         border-radius: 50%;
         width: 131px;
-        height: 133px;
+        height: auto;
+        margin: 20px;
+    }
+
+    &__name{
+        font-family: 'Playfair Display', serif;
+        font-size: $fz-x-large;
+        font-weight: $black-weight;
+        color: $color-Eerie-black;
+        font-style: italic;
+        @media screen and (min-width: 768px) {
+            
+            text-align: left;
+        }
+    }
+
+    &__email{
+        font-family: 'Roboto', sans-serif;
+        font-size: $fz-medium;
+        font-weight: $ligth-weigth;
+        color: $color-Ruddy-pink;
+        @media screen and (min-width: 768px){
+            font-size: $fz-large; 
+            text-align: left;  
+        }
+    }
+
+    &__description{
+        text-align: left;
+        line-height: 35px;
+        color: $color-nickel;
+        font-size: $fz-medium;
+        font-family: 'Roboto', sans-serif;
+        width: 617px;
     }
 
 }
