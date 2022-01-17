@@ -1,3 +1,45 @@
 .blog-pagination{
-    background: $color-ligth-gray;
+    background: $color-platinium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+    
+    }
+    
+    &__pagination{
+        margin: 58px auto;
+        @media screen and (min-width: 768px){
+            margin: 48px auto;  
+        }
+    }
+
+    &__page-link{
+        background-color: $color-white;
+        color: $color-Eerie-black;
+        width: 92px;
+        height: 38px;
+        border: $color-Eerie-black;
+    }
+
+    &__page-link-active{
+        background-color: $color-Eerie-black;
+        color: $color-white;
+        width: 34px;
+        height: 38px;
+        font-size: $fz-medium;
+        border: $color-Eerie-black;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: $fz-large;
+        
+        @media screen and (min-width: 768px){
+           
+            margin: 48px auto;
+        }
+    }
 }
+
+
+  

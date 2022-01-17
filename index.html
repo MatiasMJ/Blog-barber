@@ -26,12 +26,14 @@
     <title>Blog Barber</title>
   </head>
   <body>
-
     <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-dark blog-nav">
       <div class="container-fluid container">
         <a class="navbar-brand" href="#"
-          ><img src="assets/img/logo.png" class="blog-nav__logo" alt="logo barber navegador"
+          ><img
+            src="assets/img/logo.png"
+            class="blog-nav__logo"
+            alt="logo barber navegador"
         /></a>
         <button
           class="navbar-toggler"
@@ -47,7 +49,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#nosotros">Nosotros</a>
+              <a class="nav-link" aria-current="page" href="#nosotros"
+                >Nosotros</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Trabajos</a>
@@ -66,74 +70,130 @@
       </div>
     </nav>
 
-<!--Hero section-->
-<section class="blog-hero container-fluid">
-    <div class="row">
-      <h2 class="blog-hero__title col-7 m-auto">5 formas de cuidar tu corte de cabello</h2>
-    
-      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-double-down text-white blog-hero__icon" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-      </svg>
+    <!--Hero section-->
+    <section class="blog-hero container-fluid">
+     <div class="row blog-hero">
+        <div class="container-fluid blog-hero__title align-self-end">
+          <h2>
+            5 formas de cuidar tu corte de cabello
+          </h2>
+       </div> 
+        <div class="blog-hero__icon align-self-end mb-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chevron-double-down text-white blog-hero__icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!--articulo-->
+
+    <article id="nosotros" class="container blog-article p-4">
+      <div class="row">
+        <h3 class="blog-article__date">12 de abril de 2018</h3>
+      </div>
+      <div class="row">
+        <p class="blog-article__paragraph my-4  d-md-none">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          feugiat nunc quam, eget scelerisque quam semper quis. Mauris maximus
+          blandit lorem, sit amet condimentum eros auctor quis. In ut semper
+          ipsum, nec condimentum est. Phasellus sodales, nunc vitae feugiat
+          consequat, turpis velit euismod mi, eget scelerisque felis odio nec
+          tortor. Ut nibh ex, tincidunt eu faucibus vel, sollicitudin ut velit.
+          Fusce dapibus turpis massa, nec pellentesque libero porttitor eu.
+          Fusce vel pellentesque augue. Cras finibus elit nec nisl vehicula, in
+          interdum dolor volutpat. Duis arcu odio, aliquet non sapien vitae,
+          scelerisque aliquam lorem. Suspendisse et sem tincidunt, tincidunt
+          odio id, varius enim. Vestibulum faucibus augue id fringilla
+          vulputate. Sed vitae magna eu enim pellentesque laoreet. Pellentesque
+          id molestie eros. Nunc quam nisi, efficitur in scelerisque eu, lacinia
+          vel erat. Suspendisse vel lobortis lectus, eu convallis mauris.
+          Praesent id odio imperdiet, tincidunt ex a, aliquam libero. Duis
+          ultricies nisi nulla, eget cursus nibh
+        </p>
+        <p class="blog-article__paragraph my-4 d-none d-md-block d-lg-block d-xl-block">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget scelerisque quam semper quis. Mauris maximus blandit lorem, sit amet condimentum eros auctor quis. In ut semper ipsum, nec condimentum est. Phasellus sodales, nunc vitae feugiat consequat, turpis velit euismod mi, eget scelerisque felis odio nec tortor. Ut nibh ex, tincidunt eu faucibus vel, sollicitudin ut velit. </p>
+
+          <p class="blog-article__paragraph my-4 d-none d-md-block d-lg-block d-xl-block">
+          Fusce dapibus turpis massa, nec pellentesque libero porttitor eu. Fusce vel pellentesque augue. Cras finibus elit nec nisl vehicula, in interdum dolor volutpat. Duis arcu odio, aliquet non sapien vitae, scelerisque aliquam lorem. Suspendisse et sem tincidunt, tincidunt odio id, varius enim. Vestibulum faucibus augue id fringilla vulputate. Sed vitae magna eu enim pellentesque laoreet. Pellentesque id molestie eros. Nunc quam nisi, efficitur in scelerisque eu, lacinia vel erat. </p>
+
+          <p class="blog-article__paragraph my-4 d-none d-md-block d-lg-block d-xl-block">
+          Suspendisse vel lobortis lectus, eu convallis mauris. Praesent id odio imperdiet, tincidunt ex a, aliquam libero. Duis ultricies nisi nulla, eget cursus nibh interdum tempus. Integer sodales tincidunt imperdiet. Aenean ornare at tortor sed facilisis. Nulla gravida turpis ac ullamcorper iaculis. Cras fringilla felis id nibh efficitur ornare. Aenean accumsan orci sit amet semper eleifend.  </p>
+
+          <p class="blog-article__paragraph my-4 d-none d-md-block d-lg-block d-xl-block">
+          Proin quis tortor ante. Cras fermentum urna a felis placerat, eget malesuada ipsum placerat. Fusce scelerisque, leo quis auctor lacinia, mauris justo porta enim, eget dictum nisi sapien eget ex.</p> 
+
+          <p class="blog-article__paragraph my-4 d-none d-md-block d-lg-block d-xl-block">
+          Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus vehicula non.<span class="blog-article__important"> Praesent tincidunt convallis</span> ipsum, quis convallis metus. Vivamus ac gravida lectus, eget ultricies nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tristique pulvinar est at tristique. Vestibulum non blandit ex. Suspendisse ipsum justo, feugiat eu feugiat et, condimentum sit amet ipsum. Pellentesque eu vulputate dolor. Aliquam pretium arcu nec aliquet varius.
+        </p>
+      </div>
+
+      <div class="pb-3 border-bottom blog-article__button-layout">
+        <button class="btn blog-article__button" type="button">
+          compartir
+        </button>
+        <button class="btn blog-article__button" type="button">
+          Comentar en Twitter
+        </button>
+      </div>
+    </article>
+
+    <!--autor-->
+    <div id="Contacto" class="container blog-author">
+      <img
+        src="assets/img/naomi-thai.png"
+        class="blog-author__portrait"
+        alt="naommi thai"
+      />
+      <div>
+        <p class="blog-author__name">Naomi Thai</p>
+        <p class="blog-author__email"
+          >@Naothai <br>  depelos.com</p
+        >
+      </div>
+      <p
+        class="blog-author__description d-none d-md-block d-lg-block d-xl-block"
+      >
+        Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum
+        sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus
+        vehicula non. Praesent tincidunt convallis ipsum, quis convallis metus.
+      </p>
     </div>
-    
-</section>
 
-<!--articulo-->
+    <!--pagination-->
+    <div class="container-fluid blog-pagination">
+      <nav aria-label="..." class="px-4 py-4 mx-auto">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <span class="page-link blog-pagination__page-link">Anterior</span>
+          </li>
+          <li class="page-item"><a class="page-link " href="#">1</a></li>
+          <li class="page-item " aria-current="page">
+            <span class=" blog-pagination__page-link-active my-auto">2</span>
+          </li>
+          <li class="page-item"><a class="page-link " href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link blog-pagination__page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-<article id="nosotros" class="container blog-article p-4">
-  <div class="row">
-    <h3 class="blog-article__date">12 de abril de 2018</h3>
-  </div>
-  <div class="row">
-    <p class="blog-article__paragraph my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget scelerisque quam semper quis. Mauris maximus blandit lorem, sit amet condimentum eros auctor quis. In ut semper ipsum, nec condimentum est. Phasellus sodales, nunc vitae feugiat consequat, turpis velit euismod mi, eget scelerisque felis odio nec tortor. Ut nibh ex, tincidunt eu faucibus vel, sollicitudin ut velit. 
-
-      Fusce dapibus turpis massa, nec pellentesque libero porttitor eu. Fusce vel pellentesque augue. Cras finibus elit nec nisl vehicula, in interdum dolor volutpat. Duis arcu odio, aliquet non sapien vitae, scelerisque aliquam lorem. Suspendisse et sem tincidunt, tincidunt odio id, varius enim. Vestibulum faucibus augue id fringilla vulputate. Sed vitae magna eu enim pellentesque laoreet. Pellentesque id molestie eros. Nunc quam nisi, efficitur in scelerisque eu, lacinia vel erat.
-      
-      Suspendisse vel lobortis lectus, eu convallis mauris. Praesent id odio imperdiet, tincidunt ex a, aliquam libero. Duis ultricies nisi nulla, eget cursus nibh </p>
-  </div>
-
-  <div class="pb-3 border-bottom mx-auto">
-    <button class="btn blog-article__button" type="button">compartir</button>
-    <button class="btn blog-article__button" type="button">Comentar en Twitter</button>
-  </div>
-</article>
-
-<!--autor-->
-<div  id="Contacto" class="container blog-author">
-  <img src="assets/img/naomi-thai.png" class="blog-author__portrait" alt="naommi thai">
-  <div>
-      <a class="blog-author__name">Naomi Thai</a>
-      <a class="blog-author__email">@Naothai <br> depelos.com</a>
-    
-  </div>
-  <p class="blog-author__description d-none d-md-block d-lg-block d-xl-block">
-    Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. 
-    Praesent ultrices semper massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, 
-    quis convallis metus.
-  </p>
-</div>
-
-<!--pagination-->
-<div class="container-fluid blog-pagination">
-  <nav aria-label="..." class="px-4 py-4 mx-auto">
-    <ul class="pagination">
-      <li class="page-item disabled">
-        <span class="page-link">Anterior</span>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item active" aria-current="page">
-        <span class="page-link">2</span>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#">Siguiente</a>
-      </li>
-    </ul>
-  </nav>
-</div>
-
-<!--FOOTER-->
+    <!--FOOTER-->
     <footer class="blog-footer">
       <img
         class="blog-footer__logo"

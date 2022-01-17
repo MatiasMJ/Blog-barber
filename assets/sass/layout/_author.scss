@@ -1,10 +1,12 @@
 .blog-author {
     margin: auto;
     text-align: center;
+    margin-bottom: 40px;
+    
     @media screen and (min-width: 768px) {
         display: flex;
         text-align: left;
-        justify-content: space-between;
+       justify-content: center;
         margin: 58px auto 92px;
     }
     
@@ -13,6 +15,11 @@
         width: 131px;
         height: auto;
         margin: 20px;
+        @media screen and (min-width: 768px) {
+            width: 177px;
+            height: auto;
+            margin: 0 40px;
+        }
     }
 
     &__name{
@@ -21,9 +28,11 @@
         font-weight: $black-weight;
         color: $color-Eerie-black;
         font-style: italic;
+        text-decoration: none;
         @media screen and (min-width: 768px) {
-            
+            padding-top: 20px;
             text-align: left;
+            
         }
     }
 
@@ -32,9 +41,11 @@
         font-size: $fz-medium;
         font-weight: $ligth-weigth;
         color: $color-Ruddy-pink;
+        text-decoration: none;
         @media screen and (min-width: 768px){
             font-size: $fz-large; 
-            text-align: left;  
+            text-align: left; 
+            
         }
     }
 
@@ -45,6 +56,8 @@
         font-size: $fz-medium;
         font-family: 'Roboto', sans-serif;
         width: 617px;
+        padding-top: 20px;
+        margin: 0 40px;
     }
 
 }

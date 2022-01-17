@@ -4,29 +4,55 @@
     background-size: cover;
     background-position: center;
     height: 640px;
-    display: flex;
+    text-align: center;
     
-    
-    &__title {
+    @media screen and (min-width: 768px) {
+        background-position: initial;
+    }
+ 
+    &__title{
         color: $color-white;
         font-family: 'Playfair Display', serif;
         font-weight: $black-weight;
-        font-style: italic;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+        font-style: italic;   
+        font-size: $fz-x-large;  
+        width: 250px;
+        
+        
         @media screen and (min-width: 768px) {
+            
             text-align: center;
             justify-content: center;
             align-items: center;
+            width: 400px;
+            font-size: $fz-xx-large;
+            
+        }
+    }
+    
+    &__title h2{
+        color: $color-white;
+        font-family: 'Playfair Display', serif;
+        font-weight: $black-weight;
+        font-style: italic;   
+        font-size: $fz-x-large;  
+        width: 250px;
+        
+        
+        @media screen and (min-width: 768px) {
+            
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
         }
     }
 
     &__icon {
         stroke: white;
-        margin: 0;
+        
         @media screen and (min-width: 768px) {
-            
+            text-align: center;
         }
     }
     
